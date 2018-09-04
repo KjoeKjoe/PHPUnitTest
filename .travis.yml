@@ -10,6 +10,9 @@ env:
   - DB=mysql
 #  - DB=pgsql
 
+sudo: required
+dist: trusty
+
 # optionally set up exclusions and allowed failures in the matrix
 matrix:
   exclude:
