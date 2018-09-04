@@ -22,5 +22,13 @@ class BasicsTest extends TestCase
         $this->assertNotEmpty($array);
     }
 
+    public function testAssertEquals()
+    {
+        $varOne = 500;
+        $varTwo = 500;
+
+        $this->assertEquals($varOne, $varTwo);
+    }
+
 
 }
