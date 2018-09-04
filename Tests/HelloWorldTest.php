@@ -61,8 +61,20 @@ class HelloWorldTest extends TestCase
             'Ruud' => 50
         );
 
-
         $this->assertArrayHasKey('Tim', $array);
+    }
+
+    public function testArrayContains()
+    {
+        $array = array(
+            'Tim' => 10,
+            'Mike' => 20,
+            'Jasper' => 30,
+            'Ronald' => 40,
+            'Ruud' => 50
+        );
+
+        $this->assertArrayHasKey(20, $array);
     }
 }
 
