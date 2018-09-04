@@ -49,20 +49,20 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         );
 
-        $this->assertContainsOnly(50, $array);
+        $this->assertContainsOnly('integer', $array);
     }
 
     public function testArrayNotContainsOnly()
     {
         $array = array(
             'Tim' => 10,
-            'Mike' => 20,
-            'Jasper' => 30,
+            'Mike' => 'Typisch mike',
+            'Jasper' => 'Gekke man',
             'Ronald' => 40,
             'Ruud' => 50
         );
 
-        $this->assertNotContainsOnly('Pieter', $array);
+        $this->assertNotContainsOnly('string', $array);
     }
 
     public function testArrayCount()
