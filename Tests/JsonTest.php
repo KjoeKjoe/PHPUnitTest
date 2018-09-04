@@ -2,7 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Client as Guzzle;
-require './vendor/autoload.php';
 
 class JsonTest extends TestCase
 {
