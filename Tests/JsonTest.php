@@ -8,7 +8,7 @@ class JsonTest extends TestCase
 
     public function setUp()
     {
-        $this->http = new \GuzzleHttp\Client(['base_uri' => 'swapi.co/api']);
+        $this->http = new \GuzzleHttp\Client(['base_uri' => 'https://swapi.co/api/']);
     }
 
     public function testJsonStringEquals()
@@ -28,7 +28,6 @@ class JsonTest extends TestCase
         $contentType = $response->getHeaders()["Content-Type"][0];
         $this->assertEquals("application/json", $contentType);
 
-        $userAgent = json_decode($response->getBody())->{"planets/1"};
-        $this->assertRegexp('/Guzzle/', $userAgent);
+        $data = json_decode($response->getBody());
     }
 }
