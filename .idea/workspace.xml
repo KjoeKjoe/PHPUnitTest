@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb331e1-293e-457a-8cd6-dc4e99c2dac2" name="Default Changelist" comment="">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Tests/BasicsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BasicsTest.php" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change beforePath="$PROJECT_DIR$/Tests/JsonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/JsonTest.php" afterDir="false" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +65,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1596" />
+          <entry key="php" value="3020" />
           <entry key="xml" value="37" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1596" />
+          <entry key="PHP" value="3020" />
           <entry key="XML" value="37" />
           <entry key="YAML" value="13" />
         </counts>
@@ -79,11 +83,15 @@
           <entry key="json" value="1" />
 <<<<<<< Updated upstream
           <entry key="md" value="1" />
+<<<<<<< HEAD
           <entry key="php" value="6" />
 =======
           <entry key="md" value="2" />
           <entry key="php" value="7" />
 >>>>>>> Stashed changes
+=======
+          <entry key="php" value="7" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
           <entry key="phpunit" value="2" />
           <entry key="xml" value="2" />
           <entry key="yml" value="1" />
@@ -94,11 +102,15 @@
           <entry key="JSON" value="1" />
 <<<<<<< Updated upstream
           <entry key="Markdown" value="1" />
+<<<<<<< HEAD
           <entry key="PHP" value="6" />
 =======
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="7" />
 >>>>>>> Stashed changes
+=======
+          <entry key="PHP" value="7" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="1" />
@@ -106,7 +118,7 @@
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="3" />
+          <entry key="PHP Class.type" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -114,36 +126,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit_mysql.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit_pgsql.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="836">
               <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
@@ -152,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/ArrayTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="459">
+              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
               <folding>
                 <element signature="n#testArrayHasKey#0;n#ArrayTest#0;n#!!top" />
                 <element signature="n#testArrayContains#0;n#ArrayTest#0;n#!!top" />
@@ -169,8 +154,9 @@
       </file>
 <<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/BasicsTest.php">
+        <entry file="file://$PROJECT_DIR$/Tests/JsonTest.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="493">
               <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
 =======
@@ -192,6 +178,10 @@
               </first_editor>
               <second_editor />
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
             </state>
           </provider>
         </entry>
@@ -243,11 +233,15 @@
         <option value="$PROJECT_DIR$/Tests/HelloWorldTest.php" />
         <option value="$PROJECT_DIR$/Tests/ArrayTest.php" />
         <option value="$PROJECT_DIR$/Tests/BasicsTest.php" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
         <option value="$PROJECT_DIR$/Tests/JsonTest.php" />
         <option value="$PROJECT_DIR$/README.md" />
 >>>>>>> Stashed changes
+=======
+        <option value="$PROJECT_DIR$/Tests/JsonTest.php" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
       </list>
     </option>
   </component>
@@ -356,11 +350,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="8676000" />
 =======
     <option name="totallyTimeSpent" value="13510000" />
 >>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="13011000" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -463,10 +461,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/BasicsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+          <folding>
+            <element signature="n#testAssertEmpty#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertEmpty#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertNotEmpty#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertEquals#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertTrue#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertTrue#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertGreaterThan#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertGreaterThan#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertGreaterThan#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertGreaterThanOrEqual#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#assertAttributeInternalType#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertAttributeInternalType#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertNull#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertNull#1;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertSame#0;n#BasicsTest#0;n#!!top" />
+            <element signature="n#testAssertSame#1;n#BasicsTest#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/ArrayTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="459">
+          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
           <folding>
             <element signature="n#testArrayHasKey#0;n#ArrayTest#0;n#!!top" />
             <element signature="n#testArrayContains#0;n#ArrayTest#0;n#!!top" />
@@ -479,6 +509,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
@@ -505,6 +536,12 @@
           </first_editor>
           <second_editor />
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/Tests/JsonTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> e1ff6d25910cc70c638aff1ffe87509b7f184e59
         </state>
       </provider>
     </entry>
