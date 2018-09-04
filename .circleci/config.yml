@@ -34,6 +34,4 @@ jobs:
         key: v1-dependencies-{{ checksum "composer.json" }}
 
     # run tests!
-    - run:
-        override:
-          - vendor/bin/phpunit --coverage-text
+    - run: vendor/bin/phpunit --coverage-text
