@@ -46,10 +46,6 @@ class ArrayTest extends TestCase
     public function testArrayContainsOnly()
     {
         $array = array(
-            'Tim' => 10,
-            'Mike' => 20,
-            'Jasper' => 30,
-            'Ronald' => 40,
             'Ruud' => 50
         );
 
