@@ -10,8 +10,16 @@ env:
   - DB=mysql
 #  - DB=pgsql
 
-sudo: required
-dist: trusty
+services:
+- docker
+
+addons:
+  hosts:
+  - swapi.co/api/
+
+before_install:
+- docker pull nginx:alpine
+- docker run -v $(pwd)/.travis/nginx.conf:/etc/nginx/nginx.conf:ro -d -p 80:80 nginx:alpine
 
 # optionally set up exclusions and allowed failures in the matrix
 matrix:
