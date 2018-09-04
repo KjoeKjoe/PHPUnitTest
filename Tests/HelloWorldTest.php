@@ -62,7 +62,7 @@ class HelloWorldTest extends TestCase
         );
 
 
-        $this->arrayHasKey(10, $array);
+        $this->assertArrayHasKey('Tim', $array);
     }
 }
 
