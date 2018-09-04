@@ -3,23 +3,12 @@ language: php
 
 # list any PHP version you want to test against
 php:
-  - 7.2.1
+  - 7.2.6
 
 # optionally specify a list of environments, for example to test different RDBMS
 env:
   - DB=mysql
 #  - DB=pgsql
-
-services:
-- docker
-
-addons:
-  hosts:
-  - swapi.co/api/
-
-before_install:
-- docker pull nginx:alpine
-- docker run -v $(pwd)/.travis/nginx.conf:/etc/nginx/nginx.conf:ro -d -p 80:80 nginx:alpine
 
 # optionally set up exclusions and allowed failures in the matrix
 matrix:
