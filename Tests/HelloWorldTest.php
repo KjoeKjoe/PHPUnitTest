@@ -61,7 +61,8 @@ class HelloWorldTest extends TestCase
             'Ruud' => 50
         );
 
-        $this->arrayHasKey('Tim', $array);
+
+        $this->arrayHasKey(10, $array);
     }
 }
 
