@@ -27,8 +27,8 @@ jobs:
         - v1-dependencies-
 
     - run: composer install -n --prefer-dist
-    - run: Try chmod +x vendor/bin/phpunit first
-      
+    - run: chmod +x vendor/bin/phpunit first
+
     - save_cache:
         paths:
         - ./vendor
