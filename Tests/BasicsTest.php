@@ -90,7 +90,7 @@ class BasicsTest extends TestCase
         $varTwo = 10;
 
 //      I expect varTwo to be lesser than varOne
-        $this->assertLesserThan($varOne, $varTwo);
+        $this->assertLessThan($varOne, $varTwo);
 
     }
 
@@ -102,7 +102,7 @@ class BasicsTest extends TestCase
 
 
 //      I expect varTwo to be lesser than varOne
-        $this->assertLesserThanOrEqual($varOne, $varTwo[array_rand($varTwo)]);
+        $this->assertLessThanOrEqual($varOne, $varTwo[array_rand($varTwo)]);
 
     }
 
