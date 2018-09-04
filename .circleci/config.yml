@@ -27,7 +27,8 @@ jobs:
         - v1-dependencies-
 
     - run: composer install -n --prefer-dist
-    - run: chmod +x vendor/bin/phpunit
+    - run: chmod -R 777 vendor/bin
+    - run: chmod -R 777 vendor/bin/phpunit
 
     - save_cache:
         paths:
