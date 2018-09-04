@@ -1,5 +1,5 @@
 <?php
-
+require 'vendor/autoload.php';
 function loader($class)
 {
     $file = $class . '.php';
