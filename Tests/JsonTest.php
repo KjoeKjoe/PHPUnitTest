@@ -1,7 +1,6 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use GuzzleHttp\Client as Guzzle;
 
 class JsonTest extends TestCase
 {
@@ -9,11 +8,7 @@ class JsonTest extends TestCase
 
     public function setUp()
     {
-        $this->http = new Guzzle(['base_uri' => 'swapi.co/api']);
-    }
-
-    public function tearDown() {
-        $this->http = null;
+        $this->http = new \GuzzleHttp\Client(['base_uri' => 'swapi.co/api']);
     }
 
     public function testJsonStringEquals()
