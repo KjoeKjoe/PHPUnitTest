@@ -9,4 +9,8 @@ class FailureTest extends TestCase
         $this->assertTrue(true);
     }
 
+    public function testTwo()
+    {
+        $this->assertTrue(false);
+    }
 }

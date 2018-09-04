@@ -45,7 +45,7 @@ class HelloWorldTest extends TestCase
 
         $this->assertEquals('Bar', $helloWorld->what());
     }
-    
+
     public function testOne()
     {
         $this->assertTrue(true);
