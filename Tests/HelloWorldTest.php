@@ -53,13 +53,13 @@ class HelloWorldTest extends TestCase
 
     public function testArrayHasKey()
     {
-        $array = array([
+        $array = array(
             'Tim' => 10,
             'Mike' => 20,
             'Jasper' => 30,
             'Ronald' => 40,
             'Ruud' => 50
-        ]);
+        );
 
         $this->arrayHasKey('Tim', $array);
     }
