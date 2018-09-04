@@ -49,7 +49,7 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         );
 
-        $this->assertContainsOnly('Ruud', $array);
+        $this->assertContainsOnly(50, $array);
     }
 
     public function testArrayNotContainsOnly()
