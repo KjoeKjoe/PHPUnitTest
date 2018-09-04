@@ -161,6 +161,6 @@ class BasicsTest extends TestCase
         $varTwo = '25';
 
 //      I Expect varOne and varTwo not to be IDENTICAL from eachother
-        $this->assertSame($varOne, $varTwo);
+        $this->assertNotSame($varOne, $varTwo);
     }
 }
