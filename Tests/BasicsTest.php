@@ -94,7 +94,7 @@ class BasicsTest extends TestCase
 
     }
 
-//  Check if the data is greater than or Equals to the other
+//  Check if the data is lesser than or Equals to the other
     public function testAssertLesserThanOrEqual()
     {
         $varOne = 25;
@@ -147,7 +147,7 @@ class BasicsTest extends TestCase
 //  Check if data is IDENTICAL to eachother
     public function testAssertSame()
     {
-        $varOne = 10;
+        $varOne = 25;
         $varTwo = 25;
 
 //      I Expect varOne and varTwo to be IDENTICAL from eachother
@@ -157,7 +157,7 @@ class BasicsTest extends TestCase
 //  Check if data is NOT IDENTICAL to eachother
     public function testAssertNotSame()
     {
-        $varOne = 10;
+        $varOne = 25;
         $varTwo = '25';
 
 //      I Expect varOne and varTwo not to be IDENTICAL from eachother
