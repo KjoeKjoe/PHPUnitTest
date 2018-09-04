@@ -4,13 +4,25 @@ use PHPUnit\Framework\TestCase;
 
 class FailureTest extends TestCase
 {
-    public function testOne()
+    public function testProducerFirst()
     {
         $this->assertTrue(true);
+        return 'first';
     }
 
-    public function testTwo()
+    public function testProducerSecond()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
+        return 'second';
+    }
+
+    /**
+     * @depends testProducerFirst
+     * @depends testProducerSecond
+     */
+    public function testConsumer($a, $b)
+    {
+        $this->assertSame('first', $a);
+        $this->assertSame('second', $b);
     }
 }
