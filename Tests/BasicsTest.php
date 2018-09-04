@@ -77,7 +77,7 @@ class BasicsTest extends TestCase
         $varTwo = array_rand([10,25], 1);
 
 //      I expect varTwo to be bigger than varOne
-        $this->assertGreaterThanOrEqual($varOne, $varTwo);
+        $this->assertGreaterThanOrEqual($varOne, $varTwo[0]);
 
     }
 }
