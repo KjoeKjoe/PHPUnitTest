@@ -17,7 +17,7 @@ class ArrayTest extends TestCase
         );
 
 //      I am looking for a key named "Tim"
-        $this->assertArrayHasKey('Tim', $array);
+        $this->assertArrayHasKey('T2im', $array);
     }
 
 //  Check if the array contains a/the value that you wanted
