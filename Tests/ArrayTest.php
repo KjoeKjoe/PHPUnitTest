@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 class ArrayTest extends TestCase
 {
 
-//  Check if the array contains the wanted key :)
+//  Check if the array contains the wanted key
     public function testArrayHasKey()
     {
         $array = array(
