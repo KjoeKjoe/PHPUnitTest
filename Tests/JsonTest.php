@@ -18,8 +18,8 @@ class JsonTest extends TestCase
     public function testJsonStringEquals()
     {
         $this->assertJsonStringEqualsJsonString(
-            json_encode(['Mascot' => 'Mikey']),
-            json_encode(['Mascot' => 'Mikey'])
+            json_encode(['Mascot' => 'Mike']),
+            json_encode(['Mascot' => 'Mike'])
         );
 
         echo "\n Test JSON string Equals Completed";
