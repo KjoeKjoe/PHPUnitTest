@@ -4,6 +4,11 @@ use PHPUnit\Framework\TestCase;
 
 class FailureTest extends TestCase
 {
+    public static function setUpBeforeClass()
+    {
+        echo "\n\n ----------BASIC TESTS----------";
+    }
+
     public function testProducerFirst()
     {
         $this->assertTrue(true);

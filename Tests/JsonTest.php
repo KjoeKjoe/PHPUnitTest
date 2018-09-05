@@ -5,6 +5,11 @@ class JsonTest extends TestCase
 {
     private $http;
 
+    public static function setUpBeforeClass()
+    {
+        echo "\n\n ----------JSON TESTS----------";
+    }
+
     public function setUp()
     {
         $this->http = new \GuzzleHttp\Client(['base_uri' => 'https://swapi.co/api/']);
@@ -16,6 +21,8 @@ class JsonTest extends TestCase
             json_encode(['Mascot' => 'Mike']),
             json_encode(['Mascot' => 'Mike'])
         );
+
+        echo "\n Test JSON string Equals Completed";
     }
 
 
@@ -28,5 +35,7 @@ class JsonTest extends TestCase
         $this->assertEquals("application/json", $contentType);
 
         $data = json_decode($response->getBody());
+
+        echo "\n Test JSON GET Request Completed";
     }
 }
