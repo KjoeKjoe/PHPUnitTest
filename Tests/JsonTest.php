@@ -36,6 +36,6 @@ class JsonTest extends TestCase
 
         $data = json_decode($response->getBody());
 
-        echo "\n Test JSON GET Request Completed";
+        echo "\n Test JSON GET Request Completeded";
     }
 }
