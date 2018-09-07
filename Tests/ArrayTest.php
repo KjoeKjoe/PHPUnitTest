@@ -5,12 +5,19 @@ use PHPUnit\Framework\TestCase;
 class ArrayTest extends TestCase
 {
 
+    /**
+     *
+     */
     public static function setUpBeforeClass()
     {
         echo "\n ----------ARRAY TESTS----------";
     }
 
-//  Check if the array contains the wanted keys
+    /**
+     * @throws Exception
+     *
+     * Check if the array contains the wanted keys
+     */
     public function testArrayHasKey()
     {
         $array = array(
@@ -21,13 +28,13 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         );
 
-//      I am looking for a key named "Tim"
+        /** I am looking for a key named "Tim" */
         $this->assertArrayHasKey('Tim', $array);
 
         echo "\n Test Array has Key Completed";
     }
 
-//  Check if the array contains a/the value that you wanted
+    /** Check if the array contains a/the value that you wanted */
     public function testArrayContains()
     {
         $array = array(
@@ -38,13 +45,13 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         );
 
-//      I am looking for the value 20
+        /** I am looking for the value 20 */
         $this->assertContains(20, $array);
 
         echo "\n Test Array Contains Completed";
     }
 
-//  Check if the array not contains a certain value
+    /** Check if the array not contains a certain value */
     public function testArrayNotContains()
     {
         $array = array(
@@ -55,13 +62,13 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         );
 
-//      I am looking for the value 1998
+        /** I am looking for the value 1998 */
         $this->assertNotContains(1998, $array);
 
         echo "\n Test Array Not Contains Completed";
     }
 
-//  Check if the array contains only one type of value type (string, integer, etc..)
+    /** Check if the array contains only one type of value type (string, integer, etc..) */
     public function testArrayContainsOnly()
     {
         $array = array(
@@ -70,15 +77,15 @@ class ArrayTest extends TestCase
             'Jasper' => 30,
             'Ronald' => 40,
             'Ruud' => 50
-        );// does contain one type of value type (integer)
+        ); /** does contain one type of value type (integer) */
 
-//      I am looking if the array only contains integers as value
+        /** I am looking if the array only contains integers as value */
         $this->assertContainsOnly('integer', $array);
 
         echo "\n Test Array Contains Only Completed";
     }
 
-//  Check if the array not contains one type of value type (string, integer, etc..)
+    /** Check if the array not contains one type of value type (string, integer, etc..) */
     public function testArrayNotContainsOnly()
     {
         $array = array(
@@ -87,15 +94,15 @@ class ArrayTest extends TestCase
             'Jasper' => 'Gekke man',
             'Ronald' => 40,
             'Ruud' => 50
-        );// does not contain one type of values (string and integer)
+        );  /** does not contain one type of values (string and integer) */
 
-//      I am looking if the array does not only contains strings as value
+        /** I am looking if the array does not only contains strings as value */
         $this->assertNotContainsOnly('string', $array);
 
         echo "\n Test Array Not Contains Only Completed";
     }
 
-//  Check if the array has the wanted/needed amount of items
+    /** Check if the array has the wanted/needed amount of items */
     public function testArrayCount()
     {
         $array = array(
@@ -104,15 +111,15 @@ class ArrayTest extends TestCase
             'Jasper' => 30,
             'Ronald' => 40,
             'Ruud' => 50
-        ); // Equals 5
+        ); /** Equals 5 */
 
-//      I am looking if the array contains 5 items
+        /** I am looking if the array contains 5 items */
         $this->assertCount(5, $array);
 
         echo "\n Test Array Count Completed";
     }
 
-//  Check if the array has more of fewer items than expected
+    /** Check if the array has more of fewer items than expected */
     public function testArrayNotCount()
     {
         $array = array(
@@ -123,7 +130,7 @@ class ArrayTest extends TestCase
             'Ruud' => 50
         ); // Equals 5
 
-//      I am looking if the array contains 6 items
+        /** I am looking if the array contains 6 items */
         $this->assertNotCount(6, $array);
 
         echo "\n Test Array Not Count Completed";
