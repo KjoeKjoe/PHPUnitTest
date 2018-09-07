@@ -10,7 +10,7 @@ class ArrayTest extends TestCase
      */
     public static function setUpBeforeClass()
     {
-        echo "\n ----------ARRAY TESTS----------";
+        echo "----------ARRAY TESTS----------";
     }
 
     /**
