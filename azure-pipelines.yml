@@ -27,3 +27,9 @@ steps:
   
 - script: phpunit
   displayName: 'Run tests with phpunit'
+  
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(system.defaultWorkingDirectory)'
+    includeRootFolder: false
+- task: PublishBuildArtifacts@1
